@@ -51,6 +51,7 @@ spec:
             claimName: mysql
   strategy:
     type: Recreate
+    rollingUpdate:
 ---
 apiVersion: v1
 kind: Service

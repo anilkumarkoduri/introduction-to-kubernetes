@@ -38,6 +38,7 @@ spec:
             pdName: disk-1
   strategy:
     type: Recreate
+    rollingUpdate:
 ---
 apiVersion: v1
 kind: Service
